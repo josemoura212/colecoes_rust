@@ -1,5 +1,10 @@
-mod vetores;
+mod stringes;
+mod vetor;
+
+use stringes as s;
+use vetor as v;
 
 fn main() {
-    vetores::vetores();
+    v::vetores();
+    s::stringes();
 }
