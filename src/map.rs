@@ -6,7 +6,10 @@ pub fn map() {
     mapa.insert("email", "josemoura212@gmail.com");
     mapa.insert("url", "https://mangatrix.b4a.app");
 
-    // println!("{:?}", mapa);
+    let valores = HashMap::from([("nome", "José Augsuto")]);
+
+    println!("{:?}", mapa);
+    println!("{:?}", valores);
 
     for (chave, valor) in &mapa {
         println!("chave: {}, valor: {}", chave, valor);
