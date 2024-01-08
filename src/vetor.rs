@@ -14,6 +14,4 @@ pub fn vetores() {
     for n in numeros {
         println!("{}", n);
     }
-
-    println!(" ");
 }
